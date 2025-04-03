@@ -40,7 +40,7 @@ cat M = record
             mIdR a = monIdR M
 
 {- It is possible to define the Objects, Homs, ect... of the category outside the
-record one can do the following:
+record as follows:
 
 mObj : ∀ (M : Monoid) → Set
 mObj M = ⊤
